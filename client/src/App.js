@@ -48,7 +48,7 @@ function App() {
       subsense: subsense
     }
     setDefinitions("");
-    return axios.post("http://localhost:3000/meaning",payload)
+    return axios.post("http://localhost:5000/words",payload)
     .then((res)=>{
       getWords()
     })
@@ -58,7 +58,7 @@ function App() {
   }
 
   const getWords = ()=>{
-    return axios.get("http://localhost:3000/meaning")
+    return axios.get("http://localhost:5000/words")
     .then((res)=>{
       setData(res.data);
   })
@@ -80,7 +80,7 @@ function App() {
   const [meaning, setMeaning] = useState([])
   const handleOpen = (id) => {
     setOpen(true);
-    return axios.get(`http://localhost:3000/meaning/${id}`)
+    return axios.get(`http://localhost:5000/words/${id}`)
            .then((res)=>{
              setMeaning(res.data)
            })
@@ -95,7 +95,7 @@ function App() {
   }
 
   const handleDelete =(id)=>{
-      return axios.delete(`http://localhost:3000/meaning/${id}`) 
+      return axios.delete(`http://localhost:5000/words/${id}`) 
       .then(res=>{
         getWords()
       })
