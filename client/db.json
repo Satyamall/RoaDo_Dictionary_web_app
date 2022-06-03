@@ -1,0 +1,60 @@
+{
+  "meaning": [
+    {
+      "word": "curse",
+      "definitions": [
+        "a solemn utterance intended to invoke a supernatural power to inflict harm or punishment on someone or something"
+      ],
+      "examples": "she'd put a curse on him",
+      "shortDefinitions": [
+        "utterance invoking harm"
+      ],
+      "subsense": [
+        "a cause of harm or misery"
+      ],
+      "id": 2
+    },
+    {
+      "word": "respect",
+      "definitions": [
+        "a feeling of deep admiration for someone or something elicited by their abilities, qualities, or achievements"
+      ],
+      "examples": "the director had a lot of respect for Douglas as an actor",
+      "shortDefinitions": [
+        "feeling of deep admiration for person or thing elicited by their abilities or achievements"
+      ],
+      "subsense": [
+        "the state of being admired or respected"
+      ],
+      "id": 3
+    },
+    {
+      "word": "word",
+      "definitions": [
+        "a single distinct meaningful element of speech or writing, used with others (or sometimes alone) to form a sentence and typically shown with a space on either side when written or printed"
+      ],
+      "examples": "I don't like the word ‘unofficial’",
+      "shortDefinitions": [
+        "single meaningful element of speech or writing"
+      ],
+      "subsense": [
+        "a single distinct conceptual unit of language, comprising inflected and variant forms."
+      ],
+      "id": 4
+    },
+    {
+      "word": "new",
+      "definitions": [
+        "produced, introduced, or discovered recently or now for the first time; not existing before"
+      ],
+      "examples": "the new Madonna album",
+      "shortDefinitions": [
+        "not existing before"
+      ],
+      "subsense": [
+        "not previously used or owned"
+      ],
+      "id": 5
+    }
+  ]
+}

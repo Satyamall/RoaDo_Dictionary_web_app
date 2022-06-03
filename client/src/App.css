@@ -1,0 +1,66 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url(
+'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,300&display=swap');
+
+.App {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #f6f6f6;
+font-family:'Poppins', sans-serif;
+}
+
+input{
+width: 250px;
+height: 38px;
+font-size: 20px;
+padding-left: 10px;
+background-color: rgb(189, 35, 35);
+color: white;
+}
+
+button{
+background-color: #4DB33D;
+height: 38px;
+width: 100px;
+border: none;
+color: white;
+box-shadow: 0px 3px 2px #439e34;
+cursor: pointer;
+padding: 0;
+margin: 5px;
+}
+
+.main-box{
+    width: 400px;
+    height: 500px;
+    border: 2px solid gray;
+    text-align: center;
+    overflow: hidden;
+    overflow-y: auto;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: brown;
+}
+
+.word-box{
+    width: 400px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.pop-box{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-color: antiquewhite;
+    top: 30%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
